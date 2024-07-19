@@ -1,0 +1,11 @@
+{
+    "name": "ABC Group ruleset for Appsource app development",
+    "includedRuleSets": [
+        {
+            "action": "Default",
+            "path": "https://raw.githubusercontent.com/A-BC-Consulting-Group-Inc/RulesetFiles/main/base.rulset.json"
+        }
+    ],
+    "rules": [
+    ]
+}

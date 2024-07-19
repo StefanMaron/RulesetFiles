@@ -1,6 +1,5 @@
 {
-    "name": "Custom",
-    "description": "Description",
+    "name": "ABC Group base ruleset",
     "rules": [
         {
             "id": "AA0072",
