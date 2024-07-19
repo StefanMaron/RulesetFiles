@@ -1,0 +1,11 @@
+{
+    "name": "Custom",
+    "description": "Description",
+    "rules": [
+        {
+            "id": "AA0072",
+            "action": "Hidden",
+            "justification": "Filenaming is pointless"
+        }
+    ]
+}
