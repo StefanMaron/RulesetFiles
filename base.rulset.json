@@ -10,6 +10,16 @@
             "id": "LC0054",
             "action": "None",
             "justification": "Interface name must start with the capital 'I' without any spaces following it. Don't agree with this rule"
+        },
+        {
+            "id": "PTE0012",
+            "action": "None",
+            "justification": "InternalsVisibleTo should not be used as a security feature."
+        },
+        {
+            "id": "AS0081",
+            "action": "None",
+            "justification": "InternalsVisibleTo should not be used as a security feature."
         }
     ]
 }
