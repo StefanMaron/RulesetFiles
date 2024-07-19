@@ -3,8 +3,8 @@
     "rules": [
         {
             "id": "AA0072",
-            "action": "Hidden",
-            "justification": "Filenaming is pointless"
+            "action": "None",
+            "justification": "File naming rule is pointless"
         }
     ]
 }
