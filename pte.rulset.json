@@ -7,5 +7,30 @@
         }
     ],
     "rules": [
+        {
+            "id": "AS0051",
+            "action": "None",
+            "justification": "Manifest not for AppSource"
+        },
+        {
+            "id": "AS0052",
+            "action": "None",
+            "justification": "No Url given"
+        },
+        {
+            "id": "AS0084",
+            "action": "None",
+            "justification": "AppSource Cop in Partner Range"
+        },
+        {
+            "id": "AS0015",
+            "action": "None",
+            "justification": "No translations needed. Only english"
+        },
+        {
+            "id": "LC0034",
+            "action": "None",
+            "justification": "The property Extensible should be explicitly set for public objects."
+        }
     ]
 }
