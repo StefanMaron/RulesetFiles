@@ -20,6 +20,11 @@
             "id": "AS0081",
             "action": "None",
             "justification": "InternalsVisibleTo should not be used as a security feature."
+        },
+        {
+            "id": "AA0189",
+            "action": "None",
+            "justification": "Unknown Application Area property."
         }
     ]
 }
