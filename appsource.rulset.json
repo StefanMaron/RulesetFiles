@@ -31,6 +31,11 @@
             "id": "AS0092",
             "action": "None",
             "justification": "The app.json file must specify an Azure Application Insights resource. Is added by the pipeline"
+        },
+        {
+            "id": "LC0068",
+            "action": "Warning",
+            "justification": "Add permissions to all objects"
         }
     ]
 }
