@@ -36,6 +36,11 @@
             "id": "LC0068",
             "action": "Warning",
             "justification": "Add permissions to all objects"
+        },
+        {
+            "id": "AA0247",
+            "action": "Warning",
+            "justification": "Warn on missing ruleset"
         }
     ]
 }
