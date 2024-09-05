@@ -3,7 +3,7 @@
     "includedRuleSets": [
         {
             "action": "Default",
-            "path": "https://raw.githubusercontent.com/A-BC-Consulting-Group-Inc/RulesetFiles/main/base.rulset.json"
+            "path": "https://raw.githubusercontent.com/StefanMaron/RulesetFiles/main/base.rulset.json"
         }
     ],
     "rules": [
