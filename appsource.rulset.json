@@ -41,6 +41,11 @@
             "id": "AA0247",
             "action": "Warning",
             "justification": "Warn on missing ruleset"
+        },
+        {
+            "id": "PTE0013",
+            "action": "None",
+            "justification": "Allow entitlements for appsource apps"
         }
     ]
 }
