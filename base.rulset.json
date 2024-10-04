@@ -4,6 +4,11 @@
         {
             "id": "AA0072",
             "action": "None",
+            "justification": "Variable naming rule is pointless"
+        },
+        {
+            "id": "AA0215",
+            "action": "None",
             "justification": "File naming rule is pointless"
         },
         {
