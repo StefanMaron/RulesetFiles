@@ -41,6 +41,11 @@
             "id": "AS0089",
             "action": "Warning",
             "justification": "Code objects without IDs that can be referenced can be removed in PTEs without schema risk."
+        },
+        {
+            "id": "AS0018",
+            "action": "Warning",
+            "justification": "Procedures can be removed in PTEs without schema risk."
         }
     ]
 }
