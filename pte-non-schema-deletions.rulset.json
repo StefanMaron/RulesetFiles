@@ -1,9 +1,6 @@
   {
       "name": "Stefan Maron PTE non-schema deletion rules",
-      "description": "Downgrades deletion and obsolete lifecycle rules for non-schema objects to Warning.
-  Schema-affecting deletions (AS0001, AS0002, AS0009, AS0010, AS0041, AS0043) are intentionally excluded and remain
-  Errors. PTEs can legitimately remove UI elements and code objects without risking data loss or deployment
-  failures.",
+      "description": "Downgrades deletion and obsolete lifecycle rules for non-schema objects to Warning. Schema-affecting deletions (AS0001, AS0002, AS0009, AS0010, AS0041, AS0043) are intentionally excluded and remain Errors. PTEs can legitimately remove UI elements and code objects without risking data loss or deployment failures.",
       "rules": [
           {
               "id": "AS0018",
@@ -58,32 +55,27 @@
           {
               "id": "AS0075",
               "action": "Warning",
-              "justification": "ObsoleteTag consistency on objects is a lifecycle ceremony, not a data protection
-  rule."
+              "justification": "ObsoleteTag consistency on objects is a lifecycle ceremony, not a data protection rule."
           },
           {
               "id": "AS0076",
               "action": "Warning",
-              "justification": "ObsoleteTag consistency on fields/keys is a lifecycle ceremony, not a data
-  protection rule."
+              "justification": "ObsoleteTag consistency on fields/keys is a lifecycle ceremony, not a data protection rule."
           },
           {
               "id": "AS0088",
               "action": "Warning",
-              "justification": "Code objects with IDs (codeunits, reports, queries, enums) can be removed in PTEs
-  without schema risk."
+              "justification": "Code objects with IDs (codeunits, reports, queries, enums) can be removed in PTEs without schema risk."
           },
           {
               "id": "AS0089",
               "action": "Warning",
-              "justification": "Code objects without IDs that can be referenced can be removed in PTEs without
-  schema risk."
+              "justification": "Code objects without IDs that can be referenced can be removed in PTEs without schema risk."
           },
           {
               "id": "AS0115",
               "action": "Warning",
-              "justification": "ObsoleteState transition ordering is a lifecycle ceremony. PTEs can skip Pending and
-   go directly to Removed."
+              "justification": "ObsoleteState transition ordering is a lifecycle ceremony. PTEs can skip Pending and go directly to Removed."
           }
       ]
   }
