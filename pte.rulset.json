@@ -40,6 +40,11 @@
             "id": "AS0092",
             "action": "None",
             "justification": "Inserted via AL-Go"
+        },
+        {
+            "id": "AS0066",
+            "action": "None",
+            "justification": "Interface breaking changes allowed"
         }
     ]
 }
