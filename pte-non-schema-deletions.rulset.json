@@ -37,6 +37,11 @@
               "action": "Warning",
               "justification": "Interfaces can be removed in PTEs without schema risk."
           },
+        {
+            "id": "AS0066",
+            "action": "Warning",
+            "justification": "Interface breaking changes allowed"
+        },
           {
               "id": "AS0072",
               "action": "Warning",
