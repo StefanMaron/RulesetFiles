@@ -81,6 +81,11 @@
               "id": "AS0115",
               "action": "Warning",
               "justification": "ObsoleteState transition ordering is a lifecycle ceremony. PTEs can skip Pending and go directly to Removed."
-          }
+          },
+          {
+              "id": "AS0050",
+              "action": "Warning",
+              "justification": "The Enum was extensible in the previous version of the extension"
+          }          
       ]
   }
