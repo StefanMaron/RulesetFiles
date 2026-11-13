@@ -86,6 +86,11 @@
               "id": "AS0050",
               "action": "Warning",
               "justification": "The Enum was extensible in the previous version of the extension"
+          },
+          {
+              "id": "AS0024",
+              "action": "Warning",
+              "justification": "Parameter change of public procedure"
           }          
       ]
   }
